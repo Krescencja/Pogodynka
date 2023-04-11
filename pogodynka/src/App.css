@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lora&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./img/cloudbg.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  font-size: 62.5%;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+.hero-box {
+  position: absolute;
+  width: 1200px;
+  height: 80vh;
+  opacity: 0.7;
+  background-color: black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.9), 1px 0 15px rgba(0, 0, 0, 0.9), 0 1px 15px rgba(0, 0, 0, 0.9);
+
+}
+
+.header {
+  height: 10vh;
+  background-color: pink;
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  color: rgba(243, 241, 241, 0.918);
+  text-shadow: 0 0 10px rgba(243, 241, 241, 0.918);
+}
+
+.logo-color {
+  color: red;
+  text-shadow: 0 0 10px red, 0 0 10px red;
+}
+
+.section-left {
+  background-color: yellow;
+  height: auto;
+}
+
+.section-right {
+  background-color: blue;
+}
