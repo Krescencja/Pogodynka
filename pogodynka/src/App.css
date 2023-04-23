@@ -31,7 +31,6 @@ body {
 
 .header {
   height: 10vh;
-  background-color: pink;
   font-family: 'Lora', serif;
 }
 
@@ -46,7 +45,7 @@ h1 {
 }
 
 .section-left {
-  background-color: yellow;
+
   height: auto;
 }
 

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Search from './components/SearchBox/Search'
@@ -17,12 +16,12 @@ function App() {
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="section-left pt-2 ps-2">
-            <p></p>
+            <p><Search /></p>
           </div>
         </div>
         <div class="col-md-9 col-sm-6">
           <div class="section-right pt-2 ps-2">
-            <p><Search /></p>
+            <p></p>
           </div>
         </div>
       </div>
