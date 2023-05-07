@@ -1,0 +1,14 @@
+img {
+    width: 400px;
+    height: 350px;
+    border-radius: 15%;
+}
+h3 {
+    color: rgba(243, 241, 241, 0.918);
+    text-shadow: 0 0 10px rgba(243, 241, 241, 0.918);
+}
+
+.red-color {
+    color: red;
+    text-shadow: 0 0 10px red, 0 0 10px red;
+}
